@@ -1,0 +1,51 @@
+h1{
+	color:#00ff00;
+}
+
+/*#board{
+	max-width: 630px;
+	min-width: 320px;
+	margin: auto;
+}*/
+
+.square.small{
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 185px;
+	height: 185px;
+	font-size: 60px;
+}
+
+.square.medium{
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+}
+
+.square.large{
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 70px;
+	height: 70px;
+	font-size: 25px;
+}
+
+.square.extraLarge{
+	background-color: #fff;
+	border: 2px solid #000;
+	width: 35px;
+	height: 35px;
+	font-size: 15px;
+}
+
+.square:hover{
+	background-color: #ff0;
+}
+
+.winning-square{
+	background-color: red !important;
+	color: blue;
+}
+

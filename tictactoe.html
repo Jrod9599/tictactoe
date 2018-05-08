@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./tictactoe.css">
+
+</head>
+<body>
+	<div class="container text-center">
+		<div class="col-sm-12 title">
+			<h1>Tic Tac Toe</h1>
+		</div>
+
+		<div class="text-left">
+			<button id="PvC">PvC</button>
+		</div>
+
+		<div class="text-left">
+			Gride Size: <input type="text" id="sizeChange"> <br>
+			<button id="sizeButton">Change</button>
+		</div>
+
+
+		<div class="row">
+			<div id="message"></div>
+			<div id="board">
+				<div class="board-row">
+					<button id="A1" class="square small">-</button>
+					<button id="B1" class="square small">-</button>
+					<button id="C1" class="square small">-</button>	
+				</div>
+				<div class="board-row">
+					<button id="A2" class="square small">-</button>
+					<button id="B2" class="square small">-</button>
+					<button id="C2" class="square small">-</button>	
+				</div>
+				<div class="board-row">
+					<button id="A3" class="square small">-</button>
+					<button id="B3" class="square small">-</button>
+					<button id="C3" class="square small">-</button>	
+				</div>
+			</div>
+		</div>
+		<div class="reset">
+			<button id="reset-button">RESET GAME</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./tictactoe.js"></script>
+</body>
+</html>
